@@ -116,7 +116,7 @@
       statusText.innerText = "";
 
       try {
-        const res = await fetch(`/api/orkut/createpayment?apiKey=${apiKey}&amount=${harga}&codeqr=${codeqr}`);
+        const res = await fetch(`https://jexploit-api.vercel.app/api/orkut/createpayment?apiKey=${apiKey}&amount=${harga}&codeqr=${codeqr}`);
         const data = await res.json();
         console.log(data);
 
@@ -148,7 +148,7 @@
       }
 
       try {
-        const res = await fetch(`/api/orkut/cekstatus?apiKey=${apiKey}&merchant=${merchant}&keyorkut=${keyorkutGlobal}`);
+        const res = await fetch(`https://jexploit-api.vercel.app/api/orkut/cekstatus?apiKey=${apiKey}&merchant=${merchant}&keyorkut=${keyorkutGlobal}`);
         const data = await res.json();
         console.log(data);
 
