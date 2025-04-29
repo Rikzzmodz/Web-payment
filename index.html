@@ -119,7 +119,7 @@
         const response = await fetch(`https://jexploit-api.vercel.app/api/orkut/createpayment?apiKey=jexploit2025&amount=${harga}&codeqr=global.codeqr`);
         const data = await response.json();
 
-        if (data.status && data.qr_url) {
+        if (data.status && data.qrImageUrl) {
           // Menampilkan QRIS yang didapat
           qrisImg.src = data.qrImageUrl;
           resultDiv.style.display = 'block';
