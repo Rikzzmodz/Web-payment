@@ -145,7 +145,7 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 200%;
   height: 150px;
   fill: #ffffff;
   animation: wave-animation 10s linear infinite;
