@@ -2,9 +2,9 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pediakuu Payment</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
@@ -12,17 +12,32 @@
       <h2>Halaman Pembayaran</h2>
       <div class="payment-options">
         <div class="payment-option" id="dana-payment">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Dana_logo.svg/800px-Dana_logo.svg.png" alt="DANA Logo">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Dana_logo.svg/800px-Dana_logo.svg.png"
+            alt="DANA Logo"
+          />
           <button onclick="startDanaPayment()">Bayar dengan DANA</button>
         </div>
         <div class="payment-option" id="qris-payment">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/QRIS_Logo.svg/1200px-QRIS_Logo.svg.png" alt="QRIS Logo">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/QRIS_Logo.svg/1200px-QRIS_Logo.svg.png"
+            alt="QRIS Logo"
+          />
           <button onclick="startQRISPayment()">Bayar dengan QRIS</button>
         </div>
       </div>
     </div>
   </div>
   <footer>&copy; 2025 Pediakuu Payment Gateway</footer>
+
+  <!-- Ombak Bergerak -->
+  <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path
+      fill="#ffffff"
+      fill-opacity="1"
+      d="M0,160L1440,320L1440,0L0,0Z"
+    ></path>
+  </svg>
 
   <script src="script.js"></script>
 </body>
