@@ -140,19 +140,26 @@ footer {
   }
 }
 
-/* Efek Ombak Bergerak */
+/* Efek Ombak Laut Bergerak */
+.ocean {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to top, #0077be, #00c6ff);
+  overflow: hidden;
+}
+
 .wave {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   width: 200%;
-  height: 150px;
-  fill: #ffffff;
-  animation: wave-animation 10s linear infinite;
-  z-index: -1;
+  height: 100%;
+  background: url('https://www.transparenttextures.com/patterns/diagonal-stripes.png') repeat-x;
+  animation: waveAnimation 10s linear infinite;
 }
 
-@keyframes wave-animation {
+@keyframes waveAnimation {
   0% {
     transform: translateX(0);
   }
