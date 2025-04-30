@@ -126,13 +126,38 @@ body {
 }
 
 footer {
+  background: #ffffff; /* Mengubah latar belakang menjadi putih */
+  color: #333333; /* Mengubah warna teks menjadi abu-abu gelap */
+  padding: 20px;
   text-align: center;
   font-size: 14px;
-  margin-top: 40px;
-  color: #e0e0e0;
-  animation: fadeInFooter 1s ease-in-out 1.5s forwards;
-  opacity: 0;
+  border-top: 3px solid #00c2ff; /* Menambahkan garis pemisah berwarna biru */
 }
+
+footer a {
+  color: #00c2ff; /* Mengubah warna tautan menjadi biru */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .social-icons {
+  margin-top: 10px;
+}
+
+footer .social-icons a {
+  font-size: 18px;
+  margin: 0 10px;
+  color: #333333;
+}
+
+footer .social-icons a:hover {
+  color: #00c2ff;
+}
+
 
 @keyframes fadeInFooter {
   to {
