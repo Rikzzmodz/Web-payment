@@ -126,12 +126,11 @@ body {
 }
 
 footer {
-  background: #ffffff; /* Mengubah latar belakang menjadi putih */
-  color: #333333; /* Mengubah warna teks menjadi abu-abu gelap */
+  background: linear-gradient(135deg, #2d2dff, #00c2ff);
+  color: white;
   padding: 20px;
   text-align: center;
   font-size: 14px;
-  border-top: 3px solid #00c2ff; /* Menambahkan garis pemisah berwarna biru */
 }
 
 footer a {
